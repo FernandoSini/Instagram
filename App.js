@@ -18,10 +18,18 @@ import Post from './src/components/Post'
 
 class App extends React.Component {
   render() {
+    const comentarios = [{
+      nickname: 'Julia Silva',
+      comment: 'Bela Foto'
+    }, {
+      nickname: 'Bruno Lima', 
+      comment: 'Foto Maneira, irmão!'
+    }]
     return (
       <View style={{ flex: 1 }}>
         <Header />
-        <Post image={require('./assets/imgs/fence.jpg')}/>
+        <Post image={require('./assets/imgs/fence.jpg')}
+        comments={comentarios}/>
       </View>
     )
   }
