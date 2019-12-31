@@ -19,7 +19,7 @@ export default props => {
 const styles = StyleSheet.create({
     container:{
         flexDirection:'row',
-        alignItems:"center"
+        alignItems:"center",
     },
     avatar:{
         width: 30, 

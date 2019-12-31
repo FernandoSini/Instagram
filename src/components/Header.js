@@ -10,7 +10,7 @@ class Header extends Component {
             <View style={styles.container}>
                 <View style={styles.rowContainer}>
                     <Image style={styles.image} source={icon} />
-                    <Text style={styles.title}>AlgumaCoisa</Text>
+                    <Text style={styles.title}>Instagram</Text>
                 </View>
             </View>
         )
@@ -20,7 +20,7 @@ class Header extends Component {
 const styles = StyleSheet.create({
     container: {
         marginTop: Platform.OS === "ios" ? 20 : 0,
-        padding: 10,
+        padding: 5,
         borderBottomWidth: 1,
         borderColor: '#bbb',
         width: '100%',
@@ -30,15 +30,16 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     image: {
-        height: 30,
+        height: 35,
         width: 30,
         resizeMode: 'contain'
     },
     title: {
         color: '#000',
-        fontFamily: 'shelter',
-        height:30,
-        fontSize:28,
+        fontFamily: 'Mountain',
+        height:39,
+        fontSize:24,
+        marginLeft:10
     }
 })
 
