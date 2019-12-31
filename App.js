@@ -18,6 +18,7 @@ import Post from './src/components/Post'
 
 class App extends React.Component {
   render() {
+    //mock dos comentarios
     const comentarios = [{
       nickname: 'Julia Silva',
       comment: 'Bela Foto'
