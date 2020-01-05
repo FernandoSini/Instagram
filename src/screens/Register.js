@@ -8,7 +8,7 @@ import {
 } from 'react-native'
 
 class Register extends React.Component {
-    //estado inicial
+    //estado inicial da tela de registro
     state = {
         name: '',
         email: '',
