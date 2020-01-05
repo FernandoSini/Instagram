@@ -26,7 +26,7 @@ class Register extends React.Component {
                     onChangeText={email => this.setState({ email })} />
                 <TextInput placeholder='Password' style={styles.input}
                     secureTextEntry={true} value={this.state.password}
-                    onChangeText={password => this.setState({ passwords })} />
+                    onChangeText={password => this.setState({ password })} />
                 <TouchableOpacity onPress={() => { }} style={styles.buttom}>
                     <Text style={StyleSheet.buttomText}>Save</Text>
                 </TouchableOpacity>
